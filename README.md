@@ -1,2 +1,3 @@
-# Semin·rio sobre R Markdown
-Esse repositÛrio contÈm a apresentaÁ„o utilizada no semin·rio dos alunos sobre o R markdown.
+[![DOI](https://zenodo.org/badge/17730/BrunoVilela/Markdown_aula.svg)](https://zenodo.org/badge/latestdoi/17730/BrunoVilela/Markdown_aula)
+# Semin√°rio sobre R Markdown
+Esse reposit√≥rio cont√©m a apresenta√ß√£o utilizada no semin√°rio dos alunos sobre o R markdown.
