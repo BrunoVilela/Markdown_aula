@@ -1,0 +1,46 @@
+---
+title: "Registrando e compartilhando análises com R Markdown"
+subtitle: "Filosofia, conceitos e prática"
+author: "Bruno Vilela"
+output: 
+  ioslides_presentation:
+      widescreen: true
+      transition: faster
+      incremental: true
+---
+##
+<div class="centered">
+Abū ʿAlī al-Ḥasan ibn al-Ḥasan ibn al-Haytham (965 - 1040)
+![Alhazen](figures/Alhazen.gif)
+*Alhazen*
+</div>
+
+## Reprodutibilidade
+<div class="centered">
+<br>
+<br>
+*sf (reprodutível+i+dade) Qualidade de reprodutível.*
+</div>
+
+
+## 
+<div class="columns-2">
+<img src="figures/Karl_Popper.jpg" width="428" height="528">    
+<br><br>* Cientistas devem replicar seus experimentos<br><br>
+* Cientistas devem ser capazes de instruir outros pesquisadores a reproduzir seus experimentos<br><br>
+* Estabelecer a reprodutibilidade do experimento é necessário para construir e testar teorias
+</div>
+
+## Estamos tornando nossas pesquisas reproduzivel? 
+
+*Irreprodutibilidade na pesquisa custa $28b de dolares por ano* <br>
+(http://www.nature.com/news/reproducibility-1.17552)
+<br>
+<div class="centered">
+![rep](figures/reproducibility.jpeg)
+
+##
+<div class="columns-2">
+<img src="figures/replicatation.png" width="450" height="600">    
+Whaatt??! 
+</div>

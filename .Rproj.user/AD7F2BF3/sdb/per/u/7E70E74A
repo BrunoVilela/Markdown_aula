@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"Untitled\"\nauthor: \"Bruno Vilela\"\ndate: \"26 de agosto de 2015\"\noutput: ioslides_presentation\n---\n\n## R Markdown\n\nThis is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.\n\n## Slide with Bullets\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n## Slide with R Code and Output\n\n```{r}\nsummary(cars)\n```\n\n## Slide with Plot\n\n```{r, echo=FALSE}\nplot(cars)\n```\n\n",
+    "created" : 1440601432527.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3116968708",
+    "id" : "7E70E74A",
+    "lastKnownWriteTime" : 32651299169435749,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
