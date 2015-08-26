@@ -26,9 +26,9 @@ Abū ʿAlī al-Ḥasan ibn al-Ḥasan ibn al-Haytham (965 - 1040)
 ## 
 <div class="columns-2">
 <img src="figures/Karl_Popper.jpg" width="428" height="528">    
-<br><br>* Cientistas devem replicar seus experimentos<br><br>
-* Cientistas devem ser capazes de instruir outros pesquisadores a reproduzir seus experimentos<br><br>
-* Estabelecer a reprodutibilidade do experimento é necessário para construir e testar teorias
+<br><br>- Cientistas devem replicar seus experimentos<br><br>
+- Cientistas devem ser capazes de instruir outros pesquisadores a reproduzir seus experimentos<br><br>
+- Estabelecer a reprodutibilidade do experimento é necessário para construir e testar teorias
 </div>
 
 ## Estamos tornando nossas pesquisas reproduzivel? 
@@ -42,5 +42,11 @@ Abū ʿAlī al-Ḥasan ibn al-Ḥasan ibn al-Haytham (965 - 1040)
 ##
 <div class="columns-2">
 <img src="figures/replicatation.png" width="450" height="600">    
-Whaatt??! 
+De 100 experimentos replicados só 39 mantiveram as conclusões iguais...
 </div>
+
+## Solução
+
+- Descrever os protocolos utilizados do experimento ou coleta de dados.
+- Compartilhar as análises do trabalho...
+- ![R](figures/R.png)

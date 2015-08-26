@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"Registrando e compartilhando análises com R Markdown\"\nsubtitle: \"Filosofia, conceitos e prática\"\nauthor: \"Bruno Vilela\"\noutput: \n  ioslides_presentation:\n      widescreen: true\n      transition: faster\n      incremental: true\n---\n##\n<div class=\"centered\">\nAbū ʿAlī al-Ḥasan ibn al-Ḥasan ibn al-Haytham (965 - 1040)\n![Alhazen](figures/Alhazen.gif)\n*Alhaze*n\n</div>\n\n## Reprodutibilidade\n<div class=\"centered\">\n<br>\n<br>\n*sf (reprodutível+i+dade) Qualidade de reprodutível.*\n</div>\n\n\n## \n<div class=\"columns-2\">\n<img src=\"figures/Karl_Popper.jpg\" width=\"428\" height=\"528\">    \n<br><br>- Cientistas devem replicar seus experimentos<br><br>\n- Cientistas devem ser capazes de instruir outros pesquisadores a reproduzir seus experimentos<br><br>\n- Estabelecer a reprodutibilidade do experimento é necessário para construir e testar teorias\n</div>\n\n## Estamos tornando nossas pesquisas reproduzivel? \n\n*Irreprodutibilidade na pesquisa custa $28b de dolares por ano* <br>\n(http://www.nature.com/news/reproducibility-1.17552)\n<br>\n<div class=\"centered\">\n![rep](figures/reproducibility.jpeg)\n\n##\n<div class=\"columns-2\">\n<img src=\"figures/replicatation.png\" width=\"450\" height=\"600\">    \nDe 100 experimentos replicados só 39 mantiveram as conclusões iguais...\n</div>\n\n## Solução\n\n- Descrever os protocolos utilizados do experimento ou coleta de dados.\n- Compartilhar as análises do trabalho...\n- ![R](figures/R.png)\n\n## Compartilhar códigos\n\n\n",
+    "created" : 1440596888150.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3995254079",
+    "id" : "C928CCB4",
+    "lastKnownWriteTime" : 1440607573,
+    "path" : "C:/Users/Bruno/SkyDrive/Markdown_aula/Aula Markdown/apresentacao.Rmd",
+    "project_path" : "apresentacao.Rmd",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
