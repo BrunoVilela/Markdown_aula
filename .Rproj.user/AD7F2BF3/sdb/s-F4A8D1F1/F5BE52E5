@@ -1,0 +1,17 @@
+{
+    "contents" : "rarefacao<-function(a,n){\n  N<-sum(a)\n  riqueza<-sum(a>0)\n  E<-numeric(N)\n    for (i in 1:riqueza){\n    P1<-choose((N-a[i]),n)\n    P2<-choose(N,n)\n    E[i]<- 1 - (P1/P2)\n  }\n    return(sum(E))\n  }\n\n#alice  = 5.177429\n#grilos = 6.123376\n\ncurva<-function(dados){\n  total<-sum(dados)\n  resu<-numeric(total)\n  for(i in 1:total){\n    resu[i]<-rarefacao(dados,i)\n      }\n  return(resu)\n}\n  \n ",
+    "created" : 1440621261471.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1574177851",
+    "id" : "F5BE52E5",
+    "lastKnownWriteTime" : 1348664131,
+    "path" : "~/Bruno - pcDocumentos/Doutorado/Disciplinas/R/Curso R/Rarefação.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

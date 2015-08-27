@@ -1,0 +1,17 @@
+{
+    "contents" : "library(maptools)\nlibrary(raster)\n\nshapes<-readShapePoly(\"G:/Bruno - pcDocumentos/Doutorado/Mamiferos/MAMMALS_TERRESTRIAL.shp\")\n\n####\n\nshp<-function(shapes, xmn=-180, xmx=180, ymn=-90, ymx=90, resol=1){\nraster(xmn=xmn, xmx=xmx, ymn=ymn, ymx=ymx)->ras\nres(ras)<-resol\nvalues(ras)<-1\nxyFromCell(ras, 1:length(values(ras)))->coord\nlevels(shapes$BINOMIAL)->nomes\nmatrix(0, ncol=length(nomes), nrow=length(values(ras)))->matriz\n\nfor(i in 1:length(shapes$BINOMIAL)){\nprint(i)\n  extract(ras, SpatialPolygons(list(shapes@polygons[[i]])), cellnumbers=T, weights=T)->celulas\nwhich(shapes$BINOMIAL[1]==nomes)->pos\nmatriz[celulas[[1]][,1],pos]<-1\n\n}\nnomes->>colnames(matriz)\ncbind(coord,matriz)->Resultado###Final result\nreturn(Resultado)\n}\n\nshp(shapes, resol=1)->result\n\n##Species richness map\nrowSums(matriz)->riqueza\nvalues(ras)<-riqueza\nplot(ras)",
+    "created" : 1440621139512.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3989172310",
+    "id" : "647EE277",
+    "lastKnownWriteTime" : 1367005154,
+    "path" : "~/Bruno - pcDocumentos/Doutorado/Disciplinas/R/Curso R/shape to matrix.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

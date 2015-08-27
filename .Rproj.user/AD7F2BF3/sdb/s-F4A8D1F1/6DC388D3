@@ -1,0 +1,17 @@
+{
+    "contents" : "escala.01<-function(x){(x-min(x))}/(max(x)-min(x))\n                                    \nSloth<-function(x,y,perm=999){\nreesc.x<-escala.01(x)\nreesc.y<-escala.01(y)\nsubtracao<-reesc.y-reesc.x\nobs<-sum(subtracao>0)\nvetor<-numeric(perm)\nfor(i in 1:perm){\n  aleat<-sample(x)\n  aleats<-reesc.y-escala.01(aleat)\n  vetor[i]<-sum(aleats>0)  \n}\ncasos<-sum(abs(vetor)>=abs(obs))\np<- (casos+1)/(perm+1)\n  return(list(Est=obs,p=p))\n  \n}\n",
+    "created" : 1440621257031.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2033716861",
+    "id" : "6DC388D3",
+    "lastKnownWriteTime" : 1348749225,
+    "path" : "~/Bruno - pcDocumentos/Doutorado/Disciplinas/R/Curso R/FuncaoSloth.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
