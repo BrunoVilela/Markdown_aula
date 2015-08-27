@@ -33,28 +33,46 @@ Abū ʿAlī al-Ḥasan ibn al-Ḥasan ibn al-Haytham (965 - 1040)
 
 ## Estamos tornando nossas pesquisas reproduziveis? 
 
-*Irreprodutibilidade na pesquisa custa $28b de dolares por ano* <br>
-(http://www.nature.com/news/reproducibility-1.17552)
+*Irreprodutibilidade na pesquisa custa entre 10 e 50 bilhões de dolares por ano* <br>
+26% análise dos dados!! (Baker 2015)
 <br>
 <div class="centered">
-![rep](figures/reproducibility.jpeg)
+<img src="figures/reproducibility.jpeg" height = 300")
+</div>
+http://www.nature.com/news/reproducibility-1.17552
+
+## PIB
+<div class="centered">
+<img src="figures/PIB.png" height = 480")
+</div>
+
+
+
+## Maior experimento de reprodutibilidade já feito..
+<div class="columns-2">
+<img src="figures/replicatation.png" height="500">    
+De 100 experimentos replicados só 39 mantiveram as conclusões iguais...
+<br><br><br><br>
+
+</div>
+
 
 ##
-<div class="columns-2">
-<img src="figures/replicatation.png" width="450" height="600">    
-De 100 experimentos replicados só 39 mantiveram as conclusões iguais...
+<div class="centered">
+<img src="figures/R&R.jpg" height = 500>    
 </div>
+<small> Steve M. Easterbrook. Open code for open science? Nature Geoscience 7, 779–781 (2014) doi:10.1038/ngeo2283.</small>
 
 ## Solução
 
-- Descrever os protocolos do experimento ou coleta.
+- Descrever os protocolos do experimento ou coleta em "detalhes"
 - Compartilhar os dados
 - Compartilhar as análises do trabalho...
 - ![R](figures/R.png)
 
 ## Como não compartilhar codigos...
-```{r}
-Shapetransformator1.0<-function(arquivo,grid=as.data.frame(0)){
+```{r, eval = FALSE}
+Shapetransformator1.0<-function(arquivo,grid=as.data.'frame(0)){
   if(!is.matrix(grid)){
   grid(data=arquivo)->grid}  
   Data<<-nrow(teste2@data);  a<<-table(grid)
@@ -124,7 +142,7 @@ row.w.env.PROJT<-c(rep(1, nrow(clim1)),rep(0, nrow(clim2)),rep(0, nrow(occ.sp1))
 - Deixe seus dados disponíveis em um formato e modo que todos possam ter acesso ou forneça o link para base de dados utilizadas (inclusive se isso foi obtido por meio de um codigo)
 - Detalhe o seu código
 - Utilize um estilo padrão no código (https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
-- Seja explicito sempre que uma decisão específica foi tomada (parâmetro, métrica, divisão dos dados...) 
+- Seja explícito sempre que uma decisão específica foi tomada (parâmetro, métrica, divisão dos dados...) 
 - Forneça ao usuário um código flexível para que ele possa tomar suas próprias decisões
 - Forneça ao usuário um código flexível para que ele possa usar os próprios dados
 
